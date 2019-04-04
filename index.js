@@ -7,7 +7,6 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  uppercase = string.toUppercase()
-  string = uppercase
+  return string.toUppercase()
   consloe.log(uppercase)
 }
